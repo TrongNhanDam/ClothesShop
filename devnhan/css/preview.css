@@ -1,0 +1,97 @@
+
+.container-fluid .container__content {
+    margin: 0 100px 0 100px;
+}
+
+.container__slide {
+    /* border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.container__info {}
+
+.container__info__title {}
+
+.container__info__price {
+    color: red;
+}
+
+.container__info__des {}
+
+.container__info__choose {}
+
+.container__info__quantity {}
+
+.container__info__quantity__p {}
+
+.container__info__btn {}
+
+.container__info__btn__item {}
+
+/* slice  */
+* {
+
+    font-family: sans-serif;
+}
+
+
+.img-wrap {
+    width: 500px;
+    height: 500px;
+}
+
+
+.img-wrap-item {
+    width: 100%;
+    height: 100%;
+}
+
+.list-img-item {
+    width: 100px;
+    height: 100px;
+}
+
+.list-img-item-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    /* height: 85%; */
+    position: relative;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    color: black;
+    cursor: pointer;
+}
+
+.prev {
+    left: -10px;
+}
+.next {
+    right: 130px;
+}
+
+.list-img {
+    /* display: flex; */
+}
+
+.list-img div {
+    cursor: pointer;
+    padding: 5px;
+    /* background-color: #bbb; */
+    flex: 1;
+}
+
+.list-img div.active {
+    background-color: rgb(3, 3, 0);
+    border-radius: 5px;
+}

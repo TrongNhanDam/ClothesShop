@@ -1,0 +1,150 @@
+input[type="text"] {
+    border-radius: 10px;
+    outline: 2px solid black;
+    border: none;
+
+}
+
+input[type="text"]:focus {
+    outline: 3px solid blue;
+}
+
+.container__ShipmentDetails {
+    padding: 40px;
+
+}
+
+.container__ShipmentDetails__title {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__login {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__login__a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__name {
+    padding: 5px 0 5px 10px;
+    width: 100%;
+    /* border-radius: 5px; */
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__name:focus {}
+
+.container__ShipmentDetails__emailphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__emailphone__email {
+    padding: 5px 0 5px 10px;
+    width: 50%;
+    /* border-radius: 5px; */
+
+}
+
+.container__ShipmentDetails__emailphone__phone {
+    padding: 5px 0 5px 10px;
+    width: 50%;
+    /* border-radius: 5px; */
+
+}
+
+.container__ShipmentDetails__address {
+    padding: 5px 0 5px 10px;
+    width: 100%;
+    /* border-radius: 5px; */
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__payment {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__PaymentMethod {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+   
+
+}
+
+.container__ShipmentDetails__PaymentMethod__radio {
+    transform: scale(2);
+}
+
+.container__ShipmentDetails__PaymentMethod__icon {
+    font-size: 30px;
+}
+
+.container__ShipmentDetails__PaymentMethod__p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.container__ShipmentDetails__complete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container__ShipmentDetails__ShipTo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.set--select {
+    padding: 5px;
+    border-radius: 10px;
+    outline: 1px solid black;
+}
+
+.set--select:focus {
+    outline: 3px solid blue;
+}
+
+.container__ShipmentDetails__ShipTo__pro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__ShipTo__dis {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__ShipmentDetails__ShipTo__wa {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container__title--contact {}
+
+.container__title--contact__p {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+
+.container__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 70px 40px 70px;
+}
+
+.container__contact__info {
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 0 20px 20px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.084);
+}
+
+.container__contact__info__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon--contact {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.container__contact__info__item__p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+iframe {
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 294px;
+    display: block;
+}
+
+.container__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.container__form__feedback {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container__form__title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container__form__input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container__form__label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.container__form__textarea {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 200px;
+    padding-left: 5px;
+
+}
+
+.container__btn {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+}

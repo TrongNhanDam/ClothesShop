@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 400px) {
+    .container__tabs__content__pane.active {
+        display: grid;
+        /* grid-template-columns: unset; */
+        grid-gap: 30px;
+        grid-auto-flow: column;
+        /* grid-auto-columns: 22.2%; */
+        grid-auto-columns: 76%;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        /* hide scroll  */
+        /* -ms-overflow-style: none;
+        scrollbar-width: none; */
+        padding: 10px 20px 30px 20px;
+    }
+
+    .container__tabs__content__pane__product {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        scroll-snap-align: start;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+
+    }
+
+}

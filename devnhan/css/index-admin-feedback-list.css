@@ -1,0 +1,34 @@
+.feedback-list {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+.container__body__content__content table {
+    width: 70%;
+    /* border: 2px solid black; */
+
+}
+
+.container__body__content__content table thead {
+    background-color: yellow;
+}
+
+.container__body__content__content table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cate-th {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+}
+
+.cate-td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+}

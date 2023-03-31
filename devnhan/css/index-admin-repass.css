@@ -1,0 +1,56 @@
+/* Repassword */
+.re-pass {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+
+.old-pass {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+
+
+}
+
+.new-pass {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.confirm-pass {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.container__body__content__content__label {
+    margin-right: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container__body__content__content__input {
+    width: 100%;
+    padding: 5px;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+    outline: 2px solid black;
+    border: none;
+}
+
+.container__body__content__content__input:focus {
+    outline: 3px solid navy;
+}
+
+.container__body__content__content__btn {}
